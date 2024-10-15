@@ -14,10 +14,10 @@ export const metadata: Metadata = {
       type: 'website',
       url: 'https://yourwebsite.com/contact', // Replace with your site's URL
       title: 'Contact Us Title',
-      description: 'Its contact us page',
+      description: 'Its contact us page description',
       images: [
         {
-          url: 'https://yourwebsite.com/image.jpg', // Replace with your image URL
+          url: 'https://ichef.bbci.co.uk/images/ic/1200xn/p0jv314s.jpg', // Replace with your image URL
           width: 800,
           height: 600,
           alt: 'Contact Us Image',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       card: 'summary_large_image',
       title: 'Contact Us Title twitter',
       description: 'Its contact us page',
-      images: ['https://yourwebsite.com/image.jpg'], // Replace with your image URL
+      images: ['https://ichef.bbci.co.uk/images/ic/1200xn/p0jv314s.jpg'], // Replace with your image URL
     },
   };
 export default function page() {
