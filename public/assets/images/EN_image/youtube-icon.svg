@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-youtube">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="youtube" clip-path="url(#clip-youtube)">
+    <g id="icons8-youtube" transform="translate(-3.015 -4.486)">
+      <path id="Path_2" data-name="Path 2" d="M31.4,26.405a3.49,3.49,0,0,1-2.936,2.8,72.749,72.749,0,0,1-10.485.769A74.482,74.482,0,0,1,7.5,29.2a3.49,3.49,0,0,1-2.936-2.8A40.912,40.912,0,0,1,4,19.485a40.912,40.912,0,0,1,.559-6.924A3.49,3.49,0,0,1,7.5,9.769,72.749,72.749,0,0,1,17.98,9a73.608,73.608,0,0,1,10.485.769,3.49,3.49,0,0,1,2.936,2.8,39.655,39.655,0,0,1,.63,6.924,48,48,0,0,1-.63,6.912Z" transform="translate(0)" fill="#7d8aaa"/>
+      <path id="Path_3" data-name="Path 3" d="M20,26.786V17l8.388,4.893Z" transform="translate(-4.816 -2.408)" fill="#091431"/>
+    </g>
+  </g>
+</svg>

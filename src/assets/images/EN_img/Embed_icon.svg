@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+  <g id="Embed_icon" transform="translate(-1570.5 -115.5)">
+    <rect id="Rectangle_9320" data-name="Rectangle 9320" width="52" height="52" rx="10" transform="translate(1571 168) rotate(-90)" fill="none" stroke="#cacaca" stroke-width="1"/>
+    <g id="svgexport-10_1_" data-name="svgexport-10 (1)" transform="translate(1584.583 128.539)">
+      <path id="Path_64679" data-name="Path 64679" d="M286.12.012h-9.955a.923.923,0,0,0-.909.94v10.24a.923.923,0,0,0,.909.94h9.955a.923.923,0,0,0,.909-.94V.947a.923.923,0,0,0-.909-.935Z" transform="translate(-261.568 -0.012)" fill="#2d435e"/>
+      <path id="Path_64680" data-name="Path 64680" d="M14.6,108.953a2.649,2.649,0,0,1-1.176-.274l-4.411,4.537,1.874-.183a.916.916,0,0,1,.992.842.929.929,0,0,1-.819,1.02l-4.389.429h0a.924.924,0,0,1-.992-1.016h0l.418-4.515a.916.916,0,0,1,.992-.842.929.929,0,0,1,.819,1.02L7.727,111.9l4.411-4.537a2.856,2.856,0,0,1-.266-1.209v-6.06H.909a.923.923,0,0,0-.909.94v19.192a.923.923,0,0,0,.909.94H19.574a.923.923,0,0,0,.909-.94V108.953Z" transform="translate(0 -94.972)" fill="#2d435e"/>
+    </g>
+  </g>
+</svg>

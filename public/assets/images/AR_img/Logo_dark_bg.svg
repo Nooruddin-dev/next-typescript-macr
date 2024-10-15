@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136.771" height="58.25" viewBox="0 0 136.771 58.25">
+  <g id="Logo_dark_bg" transform="translate(0 1.5)">
+    <text id="الاقتصادية" transform="translate(0 32.9)" fill="#fff" font-size="20" font-family="SegoeUI, Segoe UI" letter-spacing="0.015em"><tspan x="0" y="0">الاقتصادية</tspan></text>
+    <text id="البوابة" transform="translate(60 50.9)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">البوابة</tspan></text>
+    <path id="Path_8" data-name="Path 8" d="M14.5,55.162H50V1.088H1V12.255H.5V.5h50V55.75h-36Z" transform="translate(84.771 -0.5)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+    <g id="Group_28" data-name="Group 28" transform="translate(96 5.6)">
+      <g id="Group_23" data-name="Group 23" transform="translate(0 5.4)">
+        <rect id="Rectangle_36" data-name="Rectangle 36" width="8" height="33" transform="translate(25 5)" fill="#86b6fd"/>
+        <rect id="Rectangle_37" data-name="Rectangle 37" width="8" height="21" transform="translate(15 17)" fill="#daefff"/>
+        <rect id="Rectangle_38" data-name="Rectangle 38" width="8" height="14" transform="translate(5 24)" fill="#fff"/>
+      </g>
+      <g id="Group_11" data-name="Group 11" transform="translate(7.17)">
+        <path id="Path_3" data-name="Path 3" d="M1015.045,2288.95l-4.44-4.675-6.577,16.658-7.612-3.553-1.944,11.795-1.034-.77" transform="translate(-992.438 -2283.275)" fill="none" stroke="#2f7c96" stroke-linecap="round" stroke-width="0.8"/>
+        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(2 12.991)" fill="#fff" stroke="#86b6fd" stroke-width="0.5">
+          <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+          <circle cx="1.5" cy="1.5" r="1.25" fill="none"/>
+        </g>
+        <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(0 24.9)" fill="#fff" stroke="#86b6fd" stroke-width="0.5">
+          <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+          <circle cx="1.5" cy="1.5" r="1.25" fill="none"/>
+        </g>
+        <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(9.762 16.239)" fill="#fff" stroke="#86b6fd" stroke-width="0.5">
+          <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+          <circle cx="1.5" cy="1.5" r="1.25" fill="none"/>
+        </g>
+        <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(16.269)" fill="#fff" stroke="#86b6fd" stroke-width="0.5">
+          <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+          <circle cx="1.5" cy="1.5" r="1.25" fill="none"/>
+        </g>
+        <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(20.608 4.33)" fill="#fff" stroke="#86b6fd" stroke-width="0.5">
+          <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+          <circle cx="1.5" cy="1.5" r="1.25" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

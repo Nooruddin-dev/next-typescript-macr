@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="157.229" height="58.25" viewBox="0 0 157.229 58.25">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-6, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        font-size: 20px;
+        letter-spacing: 0.015em;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 13px;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #86b6fd;
+      }
+
+      .cls-5 {
+        fill: #daefff;
+      }
+
+      .cls-10, .cls-7 {
+        fill: none;
+      }
+
+      .cls-7 {
+        stroke: #2f7c96;
+        stroke-linecap: round;
+        stroke-width: 0.8px;
+      }
+
+      .cls-8 {
+        stroke: #86b6fd;
+        stroke-width: 0.5px;
+      }
+
+      .cls-9 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="logo_EN" transform="translate(1.5 1.5)">
+    <text id="ECONOMIC" class="cls-1" transform="translate(45.729 32.9)"><tspan x="0" y="0">ECONOMIC</tspan></text>
+    <text id="GATE" class="cls-2" transform="translate(45.729 50.9)"><tspan x="0" y="0">GATE</tspan></text>
+    <path id="Path_8" data-name="Path 8" class="cls-3" d="M36.5,55.162H1V1.088H50V12.255h.5V.5H.5V55.75h36Z" transform="translate(-0.5 -0.5)"/>
+    <g id="Group_28" data-name="Group 28" transform="translate(1.271 5.6)">
+      <g id="Group_23" data-name="Group 23" transform="translate(10 5.4)">
+        <rect id="Rectangle_36" data-name="Rectangle 36" class="cls-4" width="8" height="33" transform="translate(-5 5)"/>
+        <rect id="Rectangle_37" data-name="Rectangle 37" class="cls-5" width="8" height="21" transform="translate(5 17)"/>
+        <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-6" width="8" height="14" transform="translate(15 24)"/>
+      </g>
+      <g id="Group_11" data-name="Group 11" transform="translate(19.222 -1)">
+        <path id="Path_3" data-name="Path 3" class="cls-7" d="M993.438,2288.95l4.44-4.675,6.577,16.658,7.612-3.553,1.944,11.795,1.034-.77" transform="translate(-1004.49 -2283.275)"/>
+        <g id="Ellipse_1" data-name="Ellipse 1" class="cls-8" transform="translate(6.556 12.991)">
+          <ellipse class="cls-9" cx="1.5" cy="1.5" rx="1.5" ry="1.5"/>
+          <ellipse class="cls-10" cx="1.5" cy="1.5" rx="1.25" ry="1.25"/>
+        </g>
+        <g id="Ellipse_4" data-name="Ellipse 4" class="cls-8" transform="translate(8.556 24.9)">
+          <ellipse class="cls-9" cx="1.5" cy="1.5" rx="1.5" ry="1.5"/>
+          <ellipse class="cls-10" cx="1.5" cy="1.5" rx="1.25" ry="1.25"/>
+        </g>
+        <g id="Ellipse_3" data-name="Ellipse 3" class="cls-8" transform="translate(-1.206 16.239)">
+          <ellipse class="cls-9" cx="1.5" cy="1.5" rx="1.5" ry="1.5"/>
+          <ellipse class="cls-10" cx="1.5" cy="1.5" rx="1.25" ry="1.25"/>
+        </g>
+        <g id="Ellipse_2" data-name="Ellipse 2" class="cls-8" transform="translate(-7.714)">
+          <ellipse class="cls-9" cx="1.5" cy="1.5" rx="1.5" ry="1.5"/>
+          <ellipse class="cls-10" cx="1.5" cy="1.5" rx="1.25" ry="1.25"/>
+        </g>
+        <g id="Ellipse_5" data-name="Ellipse 5" class="cls-8" transform="translate(-12.052 4.33)">
+          <ellipse class="cls-9" cx="1.5" cy="1.5" rx="1.5" ry="1.5"/>
+          <ellipse class="cls-10" cx="1.5" cy="1.5" rx="1.25" ry="1.25"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

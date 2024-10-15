@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-facebook">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="facebook" clip-path="url(#clip-facebook)">
+    <g id="facebook-logo-108" transform="translate(-53.127 0.957)">
+      <path id="Path_1" data-name="Path 1" d="M70.306,28.086V15.294h4.3l.661-5.008H70.306V7.1c0-1.445.4-2.431,2.478-2.431h2.627V.2A34.58,34.58,0,0,0,71.567,0c-3.811,0-6.418,2.315-6.418,6.6v3.686H60.842v5.008h4.3V28.086Z" transform="translate(0 0)" fill="#7d8aaa"/>
+    </g>
+  </g>
+</svg>

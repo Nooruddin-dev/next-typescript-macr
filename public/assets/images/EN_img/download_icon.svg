@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.964" height="32.308" viewBox="0 0 31.964 32.308">
+  <g id="Group_2" data-name="Group 2" transform="translate(-252.051 -431.726)">
+    <g id="Rectangle_6408" data-name="Rectangle 6408" transform="translate(252.051 431.726)" fill="#fff" stroke="#707070" stroke-width="1.5">
+      <rect width="31.964" height="32.308" rx="4" stroke="none"/>
+      <rect x="0.75" y="0.75" width="30.464" height="30.808" rx="3.25" fill="none"/>
+    </g>
+    <g id="Icon_feather-download" data-name="Icon feather-download" transform="translate(261.493 441.132)">
+      <path id="Path_5774" data-name="Path 5774" d="M17.055,22.5v2.371a1.3,1.3,0,0,1-1.4,1.186H5.9a1.3,1.3,0,0,1-1.4-1.186V22.5" transform="translate(-4.5 -13.429)" fill="none" stroke="#001739" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9"/>
+      <path id="Path_5775" data-name="Path 5775" d="M10.5,15l3.036,3.323L16.572,15" transform="translate(-7.317 -10.348)" fill="none" stroke="#001739" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9"/>
+      <path id="Path_5776" data-name="Path 5776" d="M18,12.475V4.5" transform="translate(-11.78 -4.5)" fill="#001739" stroke="#001739" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9"/>
+    </g>
+  </g>
+</svg>
