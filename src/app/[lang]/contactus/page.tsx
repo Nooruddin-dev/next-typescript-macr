@@ -2,7 +2,6 @@ import React from 'react'
 
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { getLocaleFromURL } from '@/Routes/routeHelper';
 
 
 

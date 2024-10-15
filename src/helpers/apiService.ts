@@ -53,3 +53,10 @@ export const getChartChangeInPercentageApi = (fieldId: any) => {
 
 
 };
+
+export const getSectorPageSeoInfo = (pageId: any) => {
+  const apiBaseUrl = API_URL;
+  return axios.get(
+    `${apiBaseUrl}${ENDPOINTS.getSectorPageSeoInfoPoint}/${pageId}`
+  );
+};

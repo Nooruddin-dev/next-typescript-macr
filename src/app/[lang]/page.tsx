@@ -1,7 +1,8 @@
-import HomePage from '@/components/Views/HomePage'
+
 import React from 'react'
 
 import { Metadata } from 'next';
+import HomePage from '@/components/Views/HomePage';
 
 // export const metadata: Metadata = {
 //   title: 'Coding Beauty',
