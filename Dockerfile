@@ -80,3 +80,53 @@ ENV PORT=3000
 # https://nextjs.org/docs/pages/api-reference/next-config-js/output
 ENV HOSTNAME="0.0.0.0"
 CMD ["node", "server.js"]
+
+
+
+
+
+# # Stage 1: Build the Next.js application
+# FROM node:20-alpine AS builder
+
+# # Set the working directory inside the container
+# WORKDIR /app
+
+# # Copy the package.json and package-lock.json to install dependencies
+# COPY package.json package-lock.json ./
+
+# # Install dependencies using npm
+# RUN npm install
+
+# # Copy the rest of the Next.js application code to the working directory
+# COPY . .
+
+# # Build the Next.js application
+# RUN npm run build
+
+# # Stage 2: Serve the built application
+# FROM node:18-alpine AS runner
+
+# # Set the environment to production
+# ENV NODE_ENV=production
+
+# # Set the working directory inside the container
+# WORKDIR /app
+
+# # Copy the built files and the required dependencies from the builder stage
+# COPY --from=builder /app/.next ./.next
+# COPY --from=builder /app/node_modules ./node_modules
+# COPY --from=builder /app/public ./public
+# COPY --from=builder /app/package.json ./package.json
+
+# # Expose the port that your Next.js app will run on
+# EXPOSE 3000
+
+# # Start the Next.js application
+# CMD ["npm", "start"]
+
+
+
+
+
+
+

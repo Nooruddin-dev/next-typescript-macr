@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react";
-import facebookIcon from "../../assets/images/EN_image/facebook-icon.svg";
+//import facebookIcon from "../../assets/images/EN_image/facebook-icon.svg";
 import linkedInIcon from "../../assets/images/EN_image/linkedin-icon.svg";
 import twitterIcon from "../../assets/images/EN_image/twitter-icon.svg";
 import youtubeInIcon from "../../assets/images/EN_image/youtube-icon.svg";
@@ -47,7 +47,7 @@ const ContactSection = () => {
                 alt="Icon"
               /> */}
               <Image
-                src={facebookIcon}
+                src={"/assets/images/EN_image/facebook-icon.svg"}
                 alt="Icon"
               />
             </Link>
