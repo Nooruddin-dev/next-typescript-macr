@@ -12,6 +12,8 @@ import { getActiveCategoriesPages, isBrowserWindow, isEmptyEntity } from "@/help
 import { getLocaleFromURL } from "@/Routes/routeHelper";
 import { strings } from "@/constants/localizedStrings";
 import HeaderCategoryNav from "../Header/HeaderCategoryNav";
+import SearchComponent from "@/components/common/SearchComponent";
+import useIsMobile from "@/hooks/useIsMobile";
 
 
 function Header({ hideSearch, hideCategoryNav }: any) {
@@ -32,9 +34,8 @@ function Header({ hideSearch, hideCategoryNav }: any) {
 
   const registericon = "/assets/images/EN_image/credential_icon.svg";
 
-  //const isMobile = useIsMobile();
+  const isMobile = useIsMobile();
 
-  const isMobile: any = false;
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -149,7 +150,7 @@ function Header({ hideSearch, hideCategoryNav }: any) {
             {/* This widget for Tablet View */}
             <div className="col-md-5 d-tablet">
               <div className="d-flex justify-content-end align-items-center search_lang_cont">
-                {/* <SearchComponent filteredCategories={filteredCategories} /> */}
+                <SearchComponent filteredCategories={filteredCategories} />
                 <Link
                   href=""
                   className="nav-link lang_link d-inline-flex"
@@ -177,7 +178,7 @@ function Header({ hideSearch, hideCategoryNav }: any) {
                       </Link>
                     </div>
                     <div className="searchico_mobile" onClick={() => setIsOpenSearch(true)}></div>
-                    {/* <SearchComponent filteredCategories={filteredCategories} setIsOpenSearch={setIsOpenSearch} isOpenSearch={isOpenSearch} /> */}
+                    <SearchComponent filteredCategories={filteredCategories} setIsOpenSearch={setIsOpenSearch} isOpenSearch={isOpenSearch} />
                   </div>
                 </>
                 :
@@ -211,7 +212,7 @@ function Header({ hideSearch, hideCategoryNav }: any) {
                                   className="nav-link credential_link d-flex align-items-center logedin"
                                   href={""}
                                 >
-                                  <img
+                                  <Image
                                     src={isEmptyEntity(user?.PictureCreativeURL) ? registericon : user?.PictureCreativeURL}
                                     height="30"
                                     width="31"
@@ -237,7 +238,7 @@ function Header({ hideSearch, hideCategoryNav }: any) {
 
                                 >
                                   <div>
-                                    <img
+                                    <Image
                                       src={registericon}
                                       height="30"
                                       width="31"
@@ -364,7 +365,7 @@ function Header({ hideSearch, hideCategoryNav }: any) {
                                   href=""
                                   className="nav-link credential_link d-flex align-items-center logedin"
                                 >
-                                  <img
+                                  <Image
                                     src={registericon}
                                     height="30"
                                     width="31"
@@ -394,7 +395,7 @@ function Header({ hideSearch, hideCategoryNav }: any) {
 
                               // onClick={() => (!isLoggedin ? handleRedirectToLogin() : null)}
                               >
-                                <img
+                                <Image
                                   src={registericon}
                                   height="30"
                                   width="31"
@@ -419,7 +420,7 @@ function Header({ hideSearch, hideCategoryNav }: any) {
 
                         
                       </ul> */}
-                      {/* <SearchComponent filteredCategories={filteredCategories} /> */}
+                      <SearchComponent filteredCategories={filteredCategories} />
                     </div>
                     <div className="col-lg-7 d-menu lang_container">
                       <div className="container-fluid p-lg-0 d-flex justify-content-end flex-lg-row flex-column">

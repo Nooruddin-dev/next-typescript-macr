@@ -6,6 +6,7 @@ import Share_icon from "../../../assets/images/EN_img/Share_icon.svg";
 import { strings } from '@/constants/localizedStrings';
 import useChartExportOptions from '@/hooks/useChartExportOptions';
 import { showErrorMessage } from '@/helpers/common/ValidationHelper';
+import Image from 'next/image';
 
 
 export  function ChartExportOptions(
@@ -78,7 +79,7 @@ export  function ChartExportOptions(
                             <li className="my-2 my-lg-2">
                                 <span className="tooltip">{strings.customEmbed}</span>
                                 <a className="d-block" onClick={onCustomEmbed}>
-                                    <img src={Embed_icon} alt="" className="img-fluid w-100" />
+                                    <Image src={Embed_icon} alt="" className="img-fluid w-100" />
                                 </a>
                             </li>
 
@@ -106,7 +107,7 @@ export  function ChartExportOptions(
                                     }
 
                                 >
-                                    <img src={Share_icon} alt="" className="img-fluid w-100" />
+                                    <Image src={Share_icon} alt="" className="img-fluid w-100" />
                                 </a>
                             </li>
                         )}

@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import loaderimg from "../../assets/images/EN_img/loader.svg";
 
 
@@ -15,7 +16,7 @@ function SiteLoader (props){
                 alignItems: "center",
               }}
             >
-              <img src={loaderimg} style={{ height: '100px', width: '100px' }} />
+              <Image src={loaderimg} style={{ height: '100px', width: '100px' }} />
             </div>
       );
   

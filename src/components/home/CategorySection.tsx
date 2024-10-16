@@ -8,6 +8,7 @@ import { useSelector } from "react-redux";
 import CategoriesSideNav from "./CategoriesSideNav";
 import PageSection from "./PageSection";
 import SiteLoader from "../common/SiteLoader";
+import useIsMobile from "@/hooks/useIsMobile";
 
 
 
@@ -19,8 +20,8 @@ function CategorySection(props: any) {
 
   const selectedLanguage = getLocaleFromURL()
 
-  // const isMobile = useIsMobile();
-  const isMobile = false;
+  const isMobile = useIsMobile();
+
 
   const {  searchText } = props;
 

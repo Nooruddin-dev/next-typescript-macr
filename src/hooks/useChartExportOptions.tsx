@@ -10,6 +10,7 @@ import { apiRequest } from '@/helpers/axios';
 import { strings } from '@/constants/localizedStrings';
 import { showErrorMessage } from '@/helpers/common/ValidationHelper';
 import { isEmptyEntity } from '@/helpers/common/GlobalHelper';
+import Image from 'next/image';
 
 
 
@@ -59,7 +60,7 @@ function useChartExportOptions({ isFullView, onNotesClick, onExcelClick, onImage
                 <li className="my-2 my-lg-2 ms-lg-0">
                     <span className="tooltip">{strings.excel}</span>
                     <div className="btn-group d-block">
-                        <img
+                        <Image
 
                             id="downloadwidget"
                             src={download_icon_full}
@@ -132,7 +133,7 @@ function useChartExportOptions({ isFullView, onNotesClick, onExcelClick, onImage
                 <li className="my-2 my-lg-2">
                     <span className="tooltip">{strings.notesToolTip}</span>
                     <a className="d-block" onClick={onNotesClick}>
-                        <img src={NotesIcon} alt="" className="img-fluid note-icon w-100" />
+                        <Image src={NotesIcon} alt="" className="img-fluid note-icon w-100" />
                     </a>
                 </li>
             )
@@ -141,7 +142,7 @@ function useChartExportOptions({ isFullView, onNotesClick, onExcelClick, onImage
                 <li className="nav-item p-0 pull-left">
                     <span className="tooltip">{strings.notesToolTip}</span>
                     <a onClick={onNotesClick} className="">
-                        <img src={NotesIcon} alt="Notes" />
+                        <Image src={NotesIcon} alt="Notes" />
                     </a>
                 </li>
             )
@@ -177,7 +178,7 @@ function useChartExportOptions({ isFullView, onNotesClick, onExcelClick, onImage
                             }
                         }}
                     >
-                        <img src={calender_icon} alt="" className="img-fluid w-100" />
+                        <Image src={calender_icon} alt="" className="img-fluid w-100" />
                     </a>
                 </li>
             );

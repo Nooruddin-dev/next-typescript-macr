@@ -60,3 +60,28 @@ export const getSectorPageSeoInfo = (pageId: any) => {
     `${apiBaseUrl}${ENDPOINTS.getSectorPageSeoInfoPoint}/${pageId}`
   );
 };
+
+
+export const getGlobalSearchDataApi = () => {
+  return apiRequest.get(
+    `${ENDPOINTS.macroChartGlobalSearch}`
+  );
+};
+
+export const generateShortUrlApi = (shareurl: any) => {
+
+  let customBaseURL = ARGAAM_SHORTENER_URL;
+  //-- Create a configuration object with the custom baseURL if provided
+  let config = customBaseURL ? { baseURL: customBaseURL } : undefined;
+
+  //-- Make the GET request using Axios and the provided configuration
+  return apiRequest.get(
+    `?longurl=${encodeURIComponent(
+      shareurl
+    )}&format=json`,
+
+    config
+
+  );
+
+};

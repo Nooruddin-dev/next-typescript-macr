@@ -10,6 +10,7 @@ import { strings } from '@/constants/localizedStrings';
 import { getChartCountTitleAr } from '@/helpers/common/GlobalHelper';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 export default function PageSection(
@@ -82,7 +83,8 @@ export default function PageSection(
                     <div className="d-flex align-items-center px-4 py-1 chart_count pb-3">
                    <div className='describtion_widget'>
                    <span className="tooltip">{strings.pageDescHover}</span>
-                   <img onClick={(e) => setShowPageDescription(true)} height={24} width={22} src={PageDescriptionImg} alt="page description" role="button"/>
+                   <Image onClick={(e) => setShowPageDescription(true)} height={24} width={22} src={PageDescriptionImg} alt="page description" role="button"/>
+                  
                    </div>
                         <Link
                     className="box_category d-flex category_info"

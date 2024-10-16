@@ -18,6 +18,8 @@ import ChartExportOptions from "../ChartsSection/ChartExportOptions";
 import CustomEmbed from "../ChartsSection/CustomEmbed";
 import UserCodeChart from "@/components/common/UserCodeChart";
 import ChartSource from "../ChartsSection/ChartSource";
+import { ChartDownloadModal } from "../ChartsSection/ChartDownloadModal";
+import FullViewChart from "./FullViewChart";
 
 
 export default function Charts(props: any) {
@@ -445,7 +447,7 @@ export default function Charts(props: any) {
 
         </div>
 
-        {/* {showModal == true ? (
+        {showModal == true ? (
           <FullViewChart
             title={selectedLanguage == "en" ? titleEn : titleAr}
             subtitle={subtitle}
@@ -473,7 +475,7 @@ export default function Charts(props: any) {
           />
         ) : (
           <></>
-        )} */}
+        )}
 
         {/* {showNotesModal && (
 
@@ -492,7 +494,7 @@ export default function Charts(props: any) {
 
         )} */}
 
-        {/* {showChartImgDownloadModal == true && (
+        {showChartImgDownloadModal == true && (
 
           <ChartDownloadModal
             visible={showChartImgDownloadModal}
@@ -502,7 +504,7 @@ export default function Charts(props: any) {
           />
 
 
-        )} */}
+        )}
 
 
         {/* {downloadRender()} */}

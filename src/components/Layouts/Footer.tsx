@@ -1,10 +1,10 @@
 'use client'
 
 import { useState } from "react";
-// import facebookIcon from "../../assets/images/EN_image/facebook-icon.svg";
-// import linkedInIcon from "../../assets/images/EN_image/linkedin-icon.svg";
-// import twitterIcon from "../../assets/images/EN_image/twitter-icon.svg";
-// import youtubeInIcon from "../../assets/images/EN_image/youtube-icon.svg";
+import facebookIcon from "../../assets/images/EN_image/facebook-icon.svg";
+import linkedInIcon from "../../assets/images/EN_image/linkedin-icon.svg";
+import twitterIcon from "../../assets/images/EN_image/twitter-icon.svg";
+import youtubeInIcon from "../../assets/images/EN_image/youtube-icon.svg";
 
 import { useSelector } from 'react-redux';
 
@@ -16,6 +16,7 @@ import Link from "next/link";
 import { getLocaleFromURL } from "@/Routes/routeHelper";
 import { getCurrentYear } from "@/helpers/common/GlobalHelper";
 import { strings } from "@/constants/localizedStrings";
+import Image from "next/image";
 
 
 const ContactSection = () => {
@@ -45,32 +46,32 @@ const ContactSection = () => {
                 src={instagramIcon}
                 alt="Icon"
               /> */}
-              <img
-                src={""}
+              <Image
+                src={facebookIcon}
                 alt="Icon"
               />
             </Link>
           </li>
           <li className="mar_dir">
             <Link href="https://www.linkedin.com/company/argaam-fz-llc/" target="_blank">
-              <img
-                src={""}
+              <Image
+                src={linkedInIcon}
                 alt="Icon"
               />
             </Link>
           </li>
           <li className="mar_dir twitter_icon">
             <Link href="https://twitter.com/argaamplus" target="_blank">
-              <img
-                src={""}
+              <Image
+                src={twitterIcon}
                 alt="Icon"
               />
             </Link>
           </li>
           <li className="mar_dir">
             <Link href="https://www.youtube.com/@argaam" target="_blank">
-              <img
-                src={""}
+              <Image
+                src={youtubeInIcon}
                 alt="Icon"
               />
             </Link>

@@ -177,3 +177,25 @@ export const getChartType = (configuration: any, sectionChartType: any, selected
 
   return chartType;
 }
+
+
+export const isGlobalSearchDataExpired = (lastUpdated: any) => {
+
+  try {
+    if (!lastUpdated) return true; //-- Data is considered expired if no timestamp is available
+
+    const TEN_DAYS_IN_MS = 10 * 24 * 60 * 60 * 1000; //-- 10 days in milliseconds
+    const ONE_MINUTE_IN_MS = 1 * 60 * 1000;
+
+    const now = new Date().getTime();
+
+    return now - lastUpdated > ONE_MINUTE_IN_MS;
+  } catch (error: any) {
+    console.error('An error occurred:', error.message);
+    return false;
+  }
+
+
+
+
+};

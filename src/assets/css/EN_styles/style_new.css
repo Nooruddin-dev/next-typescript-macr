@@ -95,7 +95,7 @@ body {
       format("woff2"),
     url("/fonts/Greata_arabic/greta1/Greta_Arabic_Bold.woff")
       format("woff"),
-    /* url("/fonts/Greata_arabic/greta1/Greta_Arabic_Bold.ttf") format("truetype"), */
+    /* url("../../fonts/Greata_arabic/greta1/Greta_Arabic_Bold.ttf") format("truetype"), */
       url("/fonts/Greata_arabic/greta1/Greta_Arabic_Bold.svg")
       format("svg");
   font-weight: normal;
@@ -2018,13 +2018,13 @@ li.sign_out::before {
   width: 16px;
   height: 16px;
   display: inline-block;
-  background-image: url("/assets/images/EN_image/signout_icon.svg");
+  background-image: url("../../images/EN_image/signout_icon.svg");
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 10px;
 }
 .dir_rtl li.sign_out::before {
-  background-image: url("/assets/images/AR_image/signout_icon_ar.svg");
+  background-image: url("../../images/AR_image/signout_icon_ar.svg");
 }
 li.sign_out a {
   display: block;
@@ -4272,6 +4272,34 @@ html[lang="ar"] .chart_count img {
 .custom-pointer{
 cursor: pointer !important;
 }
+
+.ReactModal__Content.chart-download-modal {
+  outline: none !important;
+  word-wrap: break-word;
+  position: relative !important;
+  top: 35% !important;
+  left: auto !important;
+  right: auto !important;
+  width: 30% !important;
+  text-align: center;
+  padding: 20px !important;
+  height: auto !important;
+  margin: 0 auto;
+  background-color: #fff;
+  font-size: 14px;
+  z-index: 9999;
+  &.loading_modal{
+    border-radius: 22px;
+    padding: 0px !important;
+    width: 136px !important;
+    & h4{
+      margin-bottom: 0 !important;
+    }
+  }
+}
+.loading-width-100{
+  width: 100px;
+}
 @media only screen and (max-width: 2560px) and (min-width: 1920px) {
   aside {
     height: 100vh;
@@ -5232,6 +5260,11 @@ cursor: pointer !important;
   }
 }
 @media only screen and (max-width: 1800px) and (min-width: 1650px) {
+
+ body .mx-2 {
+    margin-right: .40rem !important;
+    margin-left: .40rem !important;
+}
   body {
     zoom: 0.92;
   }
@@ -6813,6 +6846,26 @@ cursor: pointer !important;
   }
 }
 @media only screen and (max-width: 600px) {
+  .chart_widget.item.popup_view.fullpage_view .periodTabs{
+    flex-direction: column !important;
+  }
+
+  .mobile_search_lang .side_search{
+    display: none;
+  }
+  .searchico_mobile{
+    background: url(/assets/images/EN_image/search.svg) no-repeat center;
+    width: 20px;
+    height: 21px;
+    margin: 4px 0px 0 9px;
+    background-size: contain;
+    display: inline-flex;
+  }
+
+  html[lang="ar"] .searchico_mobile {
+    margin: 0 9px 0 0px;
+}
+
   .headText_tr{
     font-size: 1.4rem;
   }
@@ -7597,6 +7650,7 @@ html[lang="ar"] .top_c_head .textComment_icon{
     width: 100%;
     left: 0;
     right: 0;
+    display: block;
   }
   .mobile_search_lang .side_search.opensearch .search-input-field {
     display: block;

@@ -17,7 +17,7 @@ export const setCategories = createAsyncThunk(
   "home/setCategories",
   async (category, thunkAPI) => {
     try {
-      debugger
+      
       let categories = await getMacroCategories();
       const { data } = categories;
       const { macroCategories } = data;

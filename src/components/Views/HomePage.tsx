@@ -13,7 +13,7 @@ export default function HomePage() {
                     hideCategoryNav={true}
                 />
 
-                <h2>hello</h2>
+                {/* <h2>hello</h2> */}
 
                 <CategorySection  />
 
