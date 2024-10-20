@@ -6,7 +6,7 @@ import { isBrowserWindow } from "@/helpers/common/GlobalHelper";
 
 
 export default function useIsMobile() {
-  const [isMobile, setIsMobile] = useState(window?.innerWidth <= 500);
+  const [isMobile, setIsMobile] = useState(isBrowserWindow() && window?.innerWidth <= 500);
 
   const handleWindowSizeChange = () => {
     if (isBrowserWindow()) {

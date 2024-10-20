@@ -49,6 +49,8 @@ const ContactSection = () => {
               <Image
                 src={"/assets/images/EN_image/facebook-icon.svg"}
                 alt="Icon"
+                height={30}
+                width={30}
               />
             </Link>
           </li>
