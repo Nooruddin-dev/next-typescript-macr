@@ -5,39 +5,56 @@ import { useDispatch, useSelector } from "react-redux";
 import Footer from "./Footer";
 
 
-import { PropsWithChildren, useEffect } from "react";
+import { PropsWithChildren, useEffect, useState } from "react";
 
-import { getLocaleFromURL } from "@/Routes/routeHelper";
+import UrlLanguageDetector, { getLocaleFromURL } from "@/Routes/routeHelper";
 import { setCategories } from "@/store/home/slice";
 
 
 
 function LayoutMain({ children }: PropsWithChildren<{}>) {
   const dispatch: any = useDispatch();
+  const [apploader, setapploader] = useState(true);
 
-  const selectedLanguage =  getLocaleFromURL();
+  // const selectedLanguage =  getLocaleFromURL();
+  const selectedLanguage = useSelector(
+    (state: any) => state.settings.selectedLanguage
+  );
 
   // Set the language for localized strings
   strings.setLanguage(selectedLanguage);
 
 
   useEffect(() => {
-    
     dispatch(setCategories());
+
+    setapploader(false);
   }, []);
 
 
+
+
   return (
-    <div
-      className={`argaam-wrapper ${selectedLanguage === "ar" ? "dir_rtl" : "dir_ltr"}`}
-    >
-      {
-         children
-      }
+    <>
+
+      {apploader ? null : (
+        <div
+          className={`argaam-wrapper ${selectedLanguage === "ar" ? "dir_rtl" : "dir_ltr"}`}
+        >
+
+          <UrlLanguageDetector />
 
 
-      <Footer />
-    </div>
+          {
+            children
+          }
+
+
+          <Footer />
+        </div>
+      )}
+    </>
+
   );
 }
 
